@@ -48,6 +48,7 @@ void Show(Table *t) //Вывод стека
 	else
 		cout << "Таблица пуста!";
 }
+
 void PushToEnd(int x, int key, Table **t)
 {
 	Table* n1;
