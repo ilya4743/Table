@@ -37,19 +37,6 @@ int CountElements(Table *t) //Подсчет количества элементов в таблице
 	return c;
 }
 
-/*void Show(Table *t) 
-{
-	short int i = 0;
-	int a[10];
-	while (t)
-	{
-		a[i]=t->x;
-		t = t->Next;
-		i++;
-	}
-	for (int j = i-1; j >= 0; j--)
-		cout << a[j] << " ";
-}*/
 void Show(Table *t) //Вывод стека
 {
 	if (CountElements(t) > 0)
